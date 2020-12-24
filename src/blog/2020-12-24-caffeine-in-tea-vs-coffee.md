@@ -1,12 +1,12 @@
 ---
 templateKey: blog-post.template
-title: Caffeine in tea vs coffee
+title: What is Next.JS?
 date: 2020-12-24T02:06:37.942Z
 ---
-Caffeine’s popularity as a natural stimulant is unparalleled.
+Next.JS is a tool used to build server-side rendered websites that generate the HTML dynamically every time a new request comes to it, using a server. Next.js is perfect for building what are called dynamic websites. i.e., websites that are rendered server-side.
 
-It’s found in over 60 plant species and enjoyed across the globe, especially in coffee, chocolate, and tea.
+Next is used to build websites that interact a lot with the server, using features like Hot Code Reloading, Single File components, Automatic Code Splitting, etc. to help you build beautiful React websites.
 
-The caffeine content in a beverage varies depending on the ingredients and how the drink is prepared.
+![Gatsby.JS vs Next.JS - What is Next.JS](https://cdn.sanity.io/images/ay6gmb6r/production/5e9b04cdfcb895648cffca5955d27758b276c08b-662x283.png?w=729&fm=webp&fit=max&auto=format "Gatsby.JS vs Next.JS - What is Next.JS")
 
-While caffeine is considered safe, drinking too much may raise some concerns
+[](https://medium.com/@shoaibbhimani1392/server-side-rendering-in-react-using-next-js-46b7330df276)
