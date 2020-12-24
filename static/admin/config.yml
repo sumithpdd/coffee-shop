@@ -8,8 +8,8 @@ public_folder: /img
 collections:
   - name: "blog"
     label: "Blog"
-    label_singular: "Post"
-    folder: "src/pages/blog"
+    label_singular: "Blog Post"
+    folder: "src/blog"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
