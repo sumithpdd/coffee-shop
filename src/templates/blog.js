@@ -8,6 +8,7 @@ export default function BlogTemplate({ data }) {
     <Layout>
         <div className={styles.blog}>
             <h1>{data.markdownRemark.frontmatter.title}</h1>
+            <h2>{data.markdownRemark.frontmatter.date}</h2>
             <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
         </div>
     </Layout>
@@ -19,6 +20,7 @@ export default function BlogTemplate({ data }) {
                 html
                 frontmatter {
                     title
+                    date(formatString: "MMMM D, YYYY")
                 }
             }
         }
