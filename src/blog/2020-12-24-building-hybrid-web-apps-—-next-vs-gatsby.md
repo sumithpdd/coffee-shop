@@ -2,6 +2,7 @@
 templateKey: blog-post.template
 title: Building Hybrid web apps — Next vs. Gatsby
 date: 2020-12-24T10:55:04.165Z
+contentKey: blog
 ---
 If you are looking to build a hybrid web app where you need both — rendering the page UI using SSR and handling data to the CSR, Next.JS trumps over Gatsby.
 

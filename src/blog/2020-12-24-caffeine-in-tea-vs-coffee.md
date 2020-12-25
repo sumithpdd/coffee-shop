@@ -2,6 +2,7 @@
 templateKey: blog-post.template
 title: What is Next.JS?
 date: 2020-12-24T02:06:37.942Z
+contentKey: blog
 ---
 Next.JS is a tool used to build server-side rendered websites that generate the HTML dynamically every time a new request comes to it, using a server. Next.js is perfect for building what are called dynamic websites. i.e., websites that are rendered server-side.
 

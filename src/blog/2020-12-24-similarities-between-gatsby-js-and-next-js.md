@@ -2,6 +2,7 @@
 templateKey: blog-post.template
 title: Similarities between Gatsby.Js and Next.Js
 date: 2020-12-24T11:01:18.625Z
+contentKey: blog
 ---
 Both Next.Js and Gatsby.Js are React Frameworks that have been around for quite some time now, and each of them has their own strengths and weaknesses.
 

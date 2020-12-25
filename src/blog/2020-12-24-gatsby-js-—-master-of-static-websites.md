@@ -2,6 +2,7 @@
 templateKey: blog-post.template
 title: Gatsby.JS — Master of Static websites
 date: 2020-12-24T10:56:42.455Z
+contentKey: blog
 ---
 While we have talked about what Gatsby is and some of the few similarities between Gatsby and Next, in this section, we will show you a particular area where Gatsby shines — Static websites.
 
