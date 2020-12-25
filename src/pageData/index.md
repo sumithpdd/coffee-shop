@@ -1,3 +1,4 @@
 ---
 contentKey: indexPage
+templateKey: indexPage
 ---
