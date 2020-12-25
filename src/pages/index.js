@@ -26,7 +26,7 @@ const tagline = data.markdownRemark.frontmatter.tagline;
 const heroImage = data.markdownRemark.frontmatter.heroImage;
   return (
     <Layout>
-      <div id={styles.hero}>
+      <div id={styles.hero}
       style={{ backgroundImage: `url('${heroImage}')` }}>
         <h1>{tagline}</h1>
       </div>
