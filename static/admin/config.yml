@@ -18,3 +18,20 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "pages"
+    label: "Pages"
+    files:
+    - file: "src/pageData/index.md"
+      label: "Index Page"
+      name: "index-page"
+      fields:
+      - name: "contentKey"
+        widget: "hidden"
+        default: "indexPage"
+      - label: "Tagline"
+        name: "tagline"
+        widget: "string"
+      - label: "Hero Image"
+        name: "heroImage"
+        widget: "image"
