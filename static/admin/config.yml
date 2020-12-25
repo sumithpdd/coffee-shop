@@ -13,24 +13,28 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Content Key",name: "contentKey", widget: "hidden", default: "blog"}
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post.template"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "body", widget: "markdown"}  
+      - {
+          label: "Content Key",
+          name: "contentKey",
+          widget: "hidden",
+          default: "blog",
+        }
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post.template",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages"
     label: "Pages"
     files:
-    - file: "src/pageData/index.md"
-      label: "Index Page"
-      name: "index-page"
-      fields:
-      - name: "contentKey"
-        widget: "hidden"
-        default: "indexPage"
-      - label: "Tagline"
-        name: "tagline"
-        widget: "string"
-      - label: "Hero Image"
-        name: "heroImage"
-        widget: "image"
+      - file: "src/pageData/index.md"
+        label: "Index Page"
+        name: "index-page"
+        fields:
+          - { name: "contentKey", widget: "hidden", default: "indexPage" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Hero Image", name: "heroImage", widget: "image" }
