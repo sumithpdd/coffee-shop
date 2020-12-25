@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post.template
+contentKey: blog
 title: What is GatsbyJS?
 date: 2020-12-24T01:33:40.249Z
-contentKey: blog
 ---
 #### What exactly is GatsbyJS.
 

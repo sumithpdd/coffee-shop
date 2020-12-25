@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post.template
+contentKey: blog
 title: What is JAMstack?
 date: 2020-12-24T10:58:09.049Z
-contentKey: blog
 ---
 [JAMstack](https://jamstack.wtf/) is a radical new way to approach how one goes about building apps and websites. What is means is that you:
 
