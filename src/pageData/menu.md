@@ -1,6 +1,6 @@
 ---
-title: Coffee and bakery menu
 contentKey: menu
+title: Coffee and bakery menu
 categories:
   - name: Iced Drinks
     items:
@@ -27,4 +27,9 @@ categories:
       - name: Hot Cocoa
         description: Steamed milk with chocolate syrup
         price: $1.49
+  - name: Bakery
+    items:
+      - name: Croissant
+        description: freshly baked Croissant
+        price: $1.99
 ---
