@@ -1,3 +1,5 @@
 {
-  "name": "Product Management"
+  "name": "Product Management",
+  "color": "#644949",
+  "icon": "information.svg"
 }
