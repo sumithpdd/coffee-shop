@@ -32,4 +32,7 @@ categories:
       - name: Croissant
         description: freshly baked Croissant
         price: $1.99
+      - name: Blueberry Muffin
+        description: Made with farm fresh blueberries
+        price: $1.99
 ---
